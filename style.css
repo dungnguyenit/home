@@ -7,6 +7,7 @@
 }
 .menu{
     background-color: #edbf71;
+  
 }
 .container-fluid{
     margin-top:3%;
@@ -47,4 +48,25 @@ navbar-toggler{
 #carouselExampleControls{
     padding-top: 5%;
     padding-left: 30%;
+}
+/* tablet : width >=740px and width <1024px */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em){
+ .card{
+    margin: auto;
+ }
+ .navbar{
+     margin: auto;
+ }
+}
+/* mobile  width: <740px*/
+@media only screen and (max-width:46.1875em){
+    .card{
+        margin: auto;
+    }
+}
+/* pc */
+@media only screen and (min-width:64em){
+    .card{
+        margin: auto;
+    }
 }
