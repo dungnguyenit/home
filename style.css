@@ -5,12 +5,10 @@
     
    
 }
-.menu{
-    background-color: #edbf71;
-  
-}
-.container-fluid{
-    margin-top:3%;
+
+.navbar{
+    background-color: hsla(27, 84%, 53%, 0.227);
+    
 }
 .navbar-brand{
     padding-right: 17%;
@@ -31,6 +29,10 @@ navbar-toggler{
     padding-top: 3%;
    
 }
+#carouselExampleControls{
+    padding-left: 30%;
+    padding-top: 10%;
+}
 .main_body{
     background-color:#dbd5be;
     padding-bottom: 5%;
@@ -45,10 +47,22 @@ navbar-toggler{
     padding-bottom:1%;
     color:#6262e0;
 }
-#carouselExampleControls{
-    padding-top: 5%;
-    padding-left: 30%;
+
+.navbar-toggler{
+    margin-right:3%;
 }
+h5{
+    color: brown;
+}
+.d-flex{
+    padding-bottom: 99%;
+    width: 90%;
+    padding-left: 5%;
+}
+#offcanvasNavbar{
+background-color: #a7d9dd;
+}
+
 /* tablet : width >=740px and width <1024px */
 @media only screen and (min-width:46.25em) and (max-width:63.9375em){
  .card{
@@ -57,11 +71,22 @@ navbar-toggler{
  .navbar{
      margin: auto;
  }
+ .container-fluid img{
+    width: 15%;
+    border-radius: 7px;
+ }
 }
 /* mobile  width: <740px*/
 @media only screen and (max-width:46.1875em){
     .card{
         margin: auto;
+    }
+    .container-fluid img{
+        width: 25%;
+        border-radius: 7px;
+     }
+     .main_top{
+        padding-top: 17%;
     }
 }
 /* pc */
@@ -69,4 +94,8 @@ navbar-toggler{
     .card{
         margin: auto;
     }
+    .container-fluid img{
+        width: 15%;
+        border-radius: 7px;
+     }
 }
