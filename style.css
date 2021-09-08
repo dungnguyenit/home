@@ -54,8 +54,11 @@ navbar-toggler{
 h5{
     color: brown;
 }
+.main_body{
+    background-image: url(./img/background.jpg);
+}
 .d-flex{
-    padding-bottom: 99%;
+    padding-bottom: 50%;
     width: 90%;
     padding-left: 5%;
 }
